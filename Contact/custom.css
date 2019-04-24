@@ -448,9 +448,54 @@ footer {
   padding: 70px;
 }
 footer img {
-  max-width: 68px;
+  display: block;
+}
+footer .logo img {
+  max-width: 82px;
+  padding-bottom: 40px;
+}
+footer .social {
+  padding-bottom: 40px;
+}
+footer .social a {
+  color: white;
+}
+footer .social a:hover {
+  color: #CEFF00;
+}
+footer img.partners {
+  max-width: 316px;
+  width: 80%;
+  padding-bottom: 40px;
 }
 
+.footer-nav {
+  padding-bottom: 40px;
+}
+.footer-nav ul {
+  padding: 0;
+  list-style: none;
+}
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+}
+.footer-nav a:hover {
+  color: #CEFF00;
+}
+.footer-nav nav {
+  display: inline-block;
+  vertical-align: top;
+}
+.footer-nav .primary {
+  margin-right: 15px;
+  line-height: 2.75em;
+  width: 50%;
+}
+.footer-nav .secondary {
+  font-size: 14px;
+  line-height: 2.75em;
+}
 
 
 /* DESKTOP BP */
@@ -556,5 +601,14 @@ footer img {
   }
   .about-albert img {
     padding: 140px 0 200px;
+  }
+  footer {
+    position: relative;
+  }
+  .footer-nav {
+    position: absolute;
+    width: 25%;
+    top: 70px;
+    right: 15px;
   }
 }
