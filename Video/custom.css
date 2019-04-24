@@ -1,0 +1,547 @@
+body {
+  margin: 0 auto;
+  max-width: 1600px;
+  font-family: "Sharp Sans Display No1", sans-serif;
+  font-size: 16px;
+  background-color: black;
+      /*max-width: 375px;*/
+}
+main {
+  position: relative;
+}
+section {
+  padding: 30px 25px;
+  position: relative;
+}
+header {
+  padding: 50px 25px;
+  background-color: black;
+}
+header .navbar {
+  padding-left: 0;
+  padding-right: 0;
+}
+header img {
+  max-width: 90px;
+}
+header .navbar-dark .navbar-toggler-icon {
+  background-image: none;
+}
+header .navbar-dark .navbar-toggler {
+  border: 0;
+  color: rgba(255,255,255,1);
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+header .navbar-collapse {
+  z-index: 99999;
+  text-align: right;
+  padding: 20px 25px;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0 0 14px #333;
+  color: black;
+}
+header .navbar-collapse a {
+  color: black !important;
+  overflow: visible;
+}
+
+.meet-albert {
+  position: relative;
+  background-color: black;
+  max-width: 90%;
+}
+.meet-albert h1 {
+  color: #CEFF00;
+  font-size: 22px;
+  font-weight: 600;
+  max-width: 360px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .meet-albert h1 {
+    font-size: 44px;
+    max-width: 575px;
+    padding: 0 5%;
+    margin-top: 35px;
+    margin-bottom: 70px;
+  }
+}
+.meet-albert h1::after {
+  z-index: 99999;
+  content: '';
+  display: block;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 0px;
+  right: 64px;
+  background-color: #394CFF;
+}
+
+.contact-albert {
+  position: relative;
+  background-color: #394CFF;
+}
+.contact-albert a {
+  padding: 12px 18px;
+  display: block;
+  background-color: black;
+  margin-bottom: 20px;
+  color: white;
+  width: 100%;
+  font-size: 4vw;
+  text-decoration: none;
+}
+.contact-albert a::after {
+  content: '';
+  position: relative;
+  z-index: 99999;
+  content: '';
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/arrow-right.png');
+  display: inline-block;
+  width: 20px;
+  height: 15px;
+  float: right;
+  margin-top: 4px;
+}
+
+@media (min-width: 768px) {
+  .contact-albert a {
+    font-size: 16px;
+  }
+}
+.contact-albert::before {
+  z-index: 99999;
+  content: '';
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: -30px;
+  right: 70px;
+  background-color: #00B4FF;
+}
+.contact-albert::after {
+  z-index: 99999;
+  content: '';
+  display: block;
+  width: 85px;
+  height: 85px;
+  position: absolute;
+  bottom: -135px;
+  right: 0;
+  background-color: #CEFF00;
+}
+@media (min-width: 768px) {
+  .contact-albert::before {
+    bottom: -44px;
+    right: 70px;
+    width: 44px;
+    height: 44px;
+    background-color: #00B4FF;
+  }
+  .contact-albert::after {
+    bottom: -150px;
+    right: 0;
+    background-color: #CEFF00;
+  }
+}
+
+
+.discover-albert {
+  position: relative;
+  max-width: 100%;
+  padding: 0;
+  background-color: white;
+  color: black;
+}
+.discover-albert .container {
+  max-width: 100%;
+  padding: 0;
+}
+.discover-albert .row {
+  padding-bottom: 0;
+}
+.discover-albert h2 {
+  padding-bottom: 40px;
+  font-weight: 600;
+  font-size: 28px;
+}
+.discover-albert .about-albert {
+  padding-bottom: 60px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.albert-features-wrapper {
+  padding: 0;
+}
+.albert-features {
+  color: white;
+  background-color: black;
+  max-width: 100%;
+}
+.albert-features h3 {
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 30px;
+}
+.albert-features ul {
+  font-size: 16px;
+  list-style: none;
+  padding: 0;
+  padding-bottom: 10px;
+}
+.albert-features .row {
+  padding-bottom: 0;
+}
+.albert-features .feature {
+  padding: 0 15px;
+  min-height: 234px;
+}
+.albert-features .feature-odd {
+  background-color: #00B4FF;
+}
+@media (min-width: 768px) {
+  .discover-albert h2 {
+    font-size: 32px;
+  }
+  .albert-features .feature {
+    padding: 0 12vw;
+  }
+}
+.albert-features .feature.plan::after {
+  z-index: 99999;
+  content: '';
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/arrow-right.png');
+  display: block;
+  width: 20px;
+  height: 15px;
+  position: absolute;
+  top: 50px;
+  right: 5vw;
+}
+.albert-features .feature.build::after {
+  z-index: 99999;
+  content: '';
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/arrow-down.png');
+  display: block;
+  width: 15px;
+  height: 20px;
+  position: absolute;
+  top: 190px;
+  left: 5vw;
+}
+.albert-features .feature.optimize::after {
+  z-index: 99999;
+  content: '';
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/arrow-left.png');
+  display: block;
+  width: 20px;
+  height: 15px;
+  position: absolute;
+  top: 50px;
+  left: 5vw;
+}
+.albert-features .feature.optimize {
+  padding-left: 60px;
+}
+@media (min-width: 767px) {
+  .albert-features .feature.plan::after {
+    top: 110px;
+  }
+  .albert-features .feature.build::after {
+    top: 110px;
+  }
+  .albert-features .feature.optimize::after {
+    top: 120px;
+  }
+  .albert-features .feature.optimize {
+    padding: 0 12vw;
+  }
+}
+.discover-albert .not-ready {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #394CFF;
+  background-color: white;
+  font-size: 18px;
+  font-weight: 600;
+ }
+.discover-albert .not-ready p {
+  max-width: 240px;
+  padding-left: 30px;
+}
+@media (min-width: 768px) {
+  .discover-albert .not-ready {
+    font-size: 22px;
+  }
+  .discover-albert .not-ready p {
+    max-width: 100%;
+  }
+}
+.discover-albert .not-ready p::after {
+  z-index: 99999;
+  content: '';
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/arrow-down-blue.png');
+  display: block;
+  width: 14px;
+  height: 21px;
+  position: relative;
+  top: 20px;
+}
+.discover-albert .not-ready::before {
+  z-index: 99999;
+  content: '';
+  display: block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  bottom: 45px;
+  right: 25vw;
+  background-color: #CEFF00;
+}
+@media (min-width: 768px) {
+  .discover-albert .not-ready::before {
+    width: 25px;
+    height: 25px;
+    bottom: 160px;
+    right: 25vw;
+    background-color: #CEFF00;
+  }
+}
+.discover-albert .not-ready::after {
+  z-index: 99999;
+  content: '';
+  display: block;
+  width: 85px;
+  height: 85px;
+  position: absolute;
+  bottom: -85px;
+  right: 0;
+  background-color: #CEFF00;
+}
+
+
+
+
+
+.impact-albert {
+  position: relative;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+}
+.impact-albert p {
+  padding-bottom: 80px;
+}
+.impact-albert p.highlight {
+  padding: 160px 0 40px;
+  color: #CEFF00;
+  font-size: 22px;
+}
+
+
+
+.about-albert {
+  position: relative;
+  padding-top: 120px;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+}
+.about-albert h2 {
+  padding-bottom: 60px;
+  font-size: 28px;
+  font-weight: 600;
+}
+.about-albert img {
+  max-width: 1200px;
+  text-align: center;
+  display: block;
+}
+@media (min-width: 768px) {
+  .about-albert {
+    font-size: 18px;
+  }
+  .about-albert h2 {
+    font-size: 32px;
+  }
+}
+
+
+footer {
+  background-color: #2D2D2D;
+  padding: 70px;
+}
+footer img {
+  display: block;
+}
+footer .logo img {
+  max-width: 82px;
+  padding-bottom: 40px;
+}
+footer .social {
+  padding-bottom: 40px;
+}
+footer .social a {
+  color: white;
+}
+footer .social a:hover {
+  color: #CEFF00;
+}
+footer img.partners {
+  max-width: 370px;
+  width: 80%;
+  padding-bottom: 40px;
+}
+
+.footer-nav {
+  padding-bottom: 40px;
+}
+.footer-nav ul {
+  padding: 0;
+  list-style: none;
+}
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+}
+.footer-nav a:hover {
+  color: #CEFF00;
+}
+.footer-nav nav {
+  display: inline-block;
+  vertical-align: top;
+}
+.footer-nav .primary {
+  margin-right: 15px;
+  line-height: 2.75em;
+  width: 50%;
+}
+.footer-nav .secondary {
+  font-size: 14px;
+  line-height: 2.75em;
+}
+
+
+/* DESKTOP BP */
+@media (min-width: 992px) {
+  body {
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: 580px 40px;
+    background-size: 50%;
+  }
+  header {
+    background-color: transparent;
+  }
+  .meet-albert {
+    background-color: transparent;
+  }
+  .meet-albert h1 {
+    max-width: 560px;
+    padding-right: 0;
+  }
+  .discover-albert .embed-responsive {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .contact-albert {
+    display: inline-block;
+    float: right;
+    width: 45%;
+    z-index: 9999;
+    padding-bottom: 540px;
+    background-color: #394CFF;
+    background-image: url(images/contact-bg.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 96%;
+  }
+  .contact-albert a {
+    max-width: 390px;
+  }
+  .contact-albert .container {
+    position: absolute;
+    left: -35px;
+    top: 130px;
+  }
+  .contact-albert::before,
+  .contact-albert::after {
+    display: none;
+  }
+  .discover-albert {
+    display: inline-block;
+    width: 55%;
+    padding: 40px 15px;
+  }
+  .albert-features-wrapper {
+    padding: 0;
+    width: 46%;
+    position: absolute;
+    top: 856px;
+    right: 30px;
+    z-index: 99999;
+  }
+  .albert-features .col-12 {
+    padding-left: 10%;
+  }
+  .albert-features {
+    max-width: 640px;
+  }
+  .albert-features .feature {
+    min-height: 194px;
+  }
+  .albert-features .feature,
+  .albert-features .feature.optimize {
+    padding: 0;
+    padding-left: 10%;
+  }
+  .albert-features .feature.optimize,
+  .albert-features .feature.build {
+    padding-left: 12%;
+  }
+  .albert-features .feature.plan::after {
+    right: 30px;
+  }
+  .albert-features .feature.build::after,
+  .albert-features .feature.optimize::after {
+    left: 25px;
+  }
+  .impact-albert {
+    max-width: 50%;
+    padding: 0 5%;
+  }
+  .impact-albert .container {
+    max-width: 1440px;
+    padding: 0;
+  }
+  footer {
+    position: relative;
+  }
+  .footer-nav {
+    position: absolute;
+    width: 25%;
+    top: 70px;
+    right: 15px;
+  }
+}

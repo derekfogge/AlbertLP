@@ -1,0 +1,560 @@
+body {
+  margin: 0 auto;
+  max-width: 1600px;
+  font-family: "Sharp Sans Display No1", sans-serif;
+  font-size: 16px;
+  background-color: black;
+      /*max-width: 375px;*/
+}
+section {
+  padding: 30px 25px;
+}
+header {
+  padding: 50px 25px;
+  background-color: black;
+}
+header .navbar {
+  padding-left: 0;
+  padding-right: 0;
+}
+header img {
+  max-width: 90px;
+}
+header .navbar-dark .navbar-toggler-icon {
+  background-image: none;
+}
+header .navbar-dark .navbar-toggler {
+  border: 0;
+  color: rgba(255,255,255,1);
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+header .navbar-collapse {
+  z-index: 99999;
+  text-align: right;
+  padding: 20px 25px;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0 0 14px #333;
+  color: black;
+}
+header .navbar-collapse a {
+  color: black !important;
+  overflow: visible;
+}
+
+.meet-albert {
+  position: relative;
+  background-color: black;
+  max-width: 90%;
+}
+.meet-albert h1 {
+  color: #CEFF00;
+  font-size: 28px;
+  font-weight: 600;
+  max-width: 360px;
+}
+@media (min-width: 768px) {
+  .meet-albert h1 {
+    font-size: 44px;
+    max-width: 575px;
+    padding: 0 5%;
+  }
+}
+.meet-albert h1::after {
+  z-index: 99999;
+  content: '';
+  display: block;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 0px;
+  right: 64px;
+  background-color: #394CFF;
+}
+
+.contact-albert {
+  position: relative;
+  background-color: black;
+  background-image: -webkit-linear-gradient(#000 45%, #394CFF 45%);
+  padding-bottom: 60px;
+}
+@media (min-width: 768px) {
+  .contact-albert {
+    padding-bottom: 250px;
+  }
+}
+.contact-albert form {
+  margin: 0 auto;
+  background-color: white;
+  padding: 0 25px 50px;
+  font-size: 22px;
+}
+@media (min-width: 768px) {
+  .contact-albert form {
+    max-width: 90%;
+  }
+}
+.contact-albert form h2 {
+  color: #394CFF;
+  font-size: 22px;
+  padding: 70px 0 0;
+  margin-bottom: 0;
+}
+.contact-albert form input {
+  padding: 10px 0;
+  border: none;
+  font-size: 16px;
+  border-radius: 0;
+}
+.contact-albert select {
+  border: none;
+  border-radius: 0 !important;
+  padding: 10px 0 40px;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+.contact-albert .form-group {
+  border-bottom: 1px solid black;
+  height: 100px;
+  margin: 0;
+}
+.contact-albert select option {
+  color: black;
+}
+.contact-albert form input::placeholder {
+  color: black;
+  font-weight: 600;
+}
+.contact-albert form label.hidden {
+  text-indent: -10000px;
+}
+.contact-albert form button {
+  display: block;
+  border-radius: 0;
+  background-color: black;
+  border: 0;
+  padding: 15px 50px;
+  margin: 40px auto 0;
+  text-align: center;
+  font-weight: 600;
+}
+.contact-albert::before {
+  z-index: 99999;
+  content: '';
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: 15px;
+  right: 70px;
+  background-color: #00B4FF;
+}
+.contact-albert::after {
+  z-index: 99999;
+  content: '';
+  display: block;
+  width: 85px;
+  height: 85px;
+  position: absolute;
+  bottom: -85px;
+  right: 0;
+  background-color: #CEFF00;
+}
+@media (min-width: 768px) {
+  .contact-albert::before {
+    bottom: 150px;
+    right: 70px;
+    width: 44px;
+    height: 44px;
+    background-color: #00B4FF;
+  }
+  .contact-albert::after {
+    bottom: 0;
+    right: 0;
+    background-color: #CEFF00;
+  }
+}
+
+
+.discover-albert {
+  position: relative;
+  max-width: 100%;
+  padding: 100px 0 0;
+  background-color: white;
+  color: black;
+}
+.discover-albert .row {
+  padding-bottom: 60px;
+}
+.discover-albert h2 {
+  padding-bottom: 40px;
+  font-weight: 600;
+  font-size: 28px;
+}
+.discover-albert .about-albert {
+  padding-bottom: 60px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.discover-albert .albert-features {
+  color: white;
+  background-color: black;
+  max-width: 100%;
+}
+.discover-albert .albert-features h3 {
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 50px;
+}
+.discover-albert .albert-features ul {
+  font-size: 16px;
+  list-style: none;
+  padding: 0;
+  padding-bottom: 40px;
+}
+.discover-albert .albert-features .row {
+  padding-bottom: 0;
+}
+.discover-albert .feature {
+  padding: 0 15px;
+}
+.discover-albert .feature-odd {
+  background-color: #394CFF;
+}
+@media (min-width: 768px) {
+  .discover-albert h2 {
+    font-size: 32px;
+  }
+  .discover-albert .feature {
+    padding: 0 12vw;
+  }
+}
+.discover-albert .feature.plan::after {
+  z-index: 99999;
+  content: '';
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/arrow-right.png');
+  display: block;
+  width: 20px;
+  height: 15px;
+  position: absolute;
+  top: 50px;
+  right: 5vw;
+}
+.discover-albert .feature.build::after {
+  z-index: 99999;
+  content: '';
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/arrow-down.png');
+  display: block;
+  width: 15px;
+  height: 20px;
+  position: absolute;
+  top: 190px;
+  left: 5vw;
+}
+.discover-albert .feature.optimize::after {
+  z-index: 99999;
+  content: '';
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/arrow-left.png');
+  display: block;
+  width: 20px;
+  height: 15px;
+  position: absolute;
+  top: 50px;
+  left: 5vw;
+}
+.discover-albert .feature.optimize {
+  padding-left: 60px;
+}
+@media (min-width: 767px) {
+  .discover-albert .feature.plan::after {
+    top: 110px;
+  }
+  .discover-albert .feature.build::after {
+    top: 110px;
+  }
+  .discover-albert .feature.optimize::after {
+    top: 120px;
+  }
+  .discover-albert .feature.optimize {
+    padding: 0 12vw;
+  }
+}
+.discover-albert .not-ready {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #394CFF;
+  background-color: white;
+  font-size: 18px;
+  font-weight: 600;
+ }
+.discover-albert .not-ready p {
+  max-width: 240px;
+  padding-left: 30px;
+}
+@media (min-width: 768px) {
+  .discover-albert .not-ready {
+    font-size: 22px;
+  }
+  .discover-albert .not-ready p {
+    max-width: 100%;
+  }
+}
+.discover-albert .not-ready p::after {
+  z-index: 99999;
+  content: '';
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/arrow-down-blue.png');
+  display: block;
+  width: 14px;
+  height: 21px;
+  position: relative;
+  top: 20px;
+}
+.discover-albert .not-ready::before {
+  z-index: 99999;
+  content: '';
+  display: block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  bottom: 45px;
+  right: 25vw;
+  background-color: #CEFF00;
+}
+@media (min-width: 768px) {
+  .discover-albert .not-ready::before {
+    width: 25px;
+    height: 25px;
+    bottom: 160px;
+    right: 25vw;
+    background-color: #CEFF00;
+  }
+}
+.discover-albert .not-ready::after {
+  z-index: 99999;
+  content: '';
+  display: block;
+  width: 85px;
+  height: 85px;
+  position: absolute;
+  bottom: -85px;
+  right: 0;
+  background-color: #CEFF00;
+}
+
+
+
+
+
+.impact-albert {
+  position: relative;
+  padding-bottom: 180px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+}
+.impact-albert h2 {
+  padding-top: 170px;
+  padding-bottom: 60px;
+  font-size: 28px;
+}
+.impact-albert .col-6 {
+  padding-bottom: 30px;
+}
+.impact-albert .col-lg-11 {
+  padding-left: 0;
+}
+.impact-albert .persona-title {
+  color: #CEFF00;
+  font-size: 18px;
+  padding-right: 30px;
+}
+.impact-albert .persona-percent {
+  font-size: 36px;
+}
+.impact-albert .impact-persona {
+  padding-bottom: 60px;
+}
+@media (min-width: 768px) {
+  .impact-albert {
+    font-size: 18px;
+  }
+  .impact-albert h2 {
+    font-size: 32px;
+  }
+  .impact-albert .persona-title {
+    font-size: 22px;
+  }
+  .impact-albert .persona-percent {
+    font-size: 48px;
+  }
+}
+.impact-albert::after {
+  z-index: 99999;
+  content: '';
+  display: block;
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  bottom: -29px;
+  background-color: #00B4FF;
+}
+
+
+
+
+.about-albert {
+  position: relative;
+  padding-top: 120px;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+}
+.about-albert h2 {
+  padding-bottom: 60px;
+  font-size: 28px;
+  font-weight: 600;
+}
+.about-albert img {
+  max-width: 1200px;
+  text-align: center;
+  display: block;
+}
+@media (min-width: 768px) {
+  .about-albert {
+    font-size: 18px;
+  }
+  .about-albert h2 {
+    font-size: 32px;
+  }
+}
+
+
+footer {
+  background-color: #2D2D2D;
+  padding: 70px;
+}
+footer img {
+  max-width: 68px;
+}
+
+
+
+/* DESKTOP BP */
+@media (min-width: 992px) {
+  body {
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: 580px 40px;
+    background-size: 50%;
+  }
+  header {
+    background-color: transparent;
+  }
+  .meet-albert {
+    background-color: transparent;
+  }
+  .meet-albert h1 {
+    max-width: 560px;
+    padding-right: 0;
+  }
+  .contact-albert {
+    display: inline-block;
+    float: right;
+    width: 45%;
+    z-index: 9999;
+    padding-bottom: 336px;
+    background-color: #394CFF;
+    background-image: url(images/form-bg.png);
+    background-repeat: no-repeat;
+    background-position: left 50px;
+    background-size: 96%;
+  }
+  .contact-albert form {
+    margin-top: -80px;
+    margin-left: 74px;
+    max-width: 460px;
+  }
+  .contact-albert::before,
+  .contact-albert::after {
+    display: none;
+  }
+  .discover-albert {
+    display: inline-block;
+    width: 55%;
+  }
+  .discover-albert .col-12 {
+    padding-left: 10%;
+  }
+  .discover-albert .row {
+    padding-bottom: 30px;
+  }
+  .discover-albert .albert-features {
+    max-width: 640px;
+  }
+  .discover-albert .feature,
+  .discover-albert .feature.optimize {
+    padding: 0;
+    padding-left: 10%;
+  }
+  .discover-albert .feature.optimize,
+  .discover-albert .feature.build {
+    padding-left: 18%;
+  }
+  .discover-albert .not-ready p {
+    padding: 0;
+  }
+  .discover-albert .not-ready::before {
+    display: none;
+  }
+  .impact-albert {
+    padding: 0 5%;
+  }
+  .impact-albert .container {
+    max-width: 1440px;
+    padding: 0;
+  }
+  .impact-albert::after {
+    z-index: 99999;
+    content: '';
+    display: block;
+    width: 133px;
+    height: 133px;
+    position: absolute;
+    bottom: -133px;
+    left: 0;
+    background-color: #394CFF;
+  }
+  .about-albert::before {
+    z-index: 99999;
+    content: '';
+    display: block;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 160px;
+    left: 160px;
+    background-color: #CEFF00;
+  }
+  .about-albert {
+    padding-top: 240px;
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+  .about-albert img {
+    padding: 140px 0 200px;
+  }
+}
