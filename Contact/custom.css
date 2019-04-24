@@ -1,7 +1,17 @@
+@font-face {
+  font-family: 'SharpSansDisplayNo1';
+  src: url('./fonts/SharpSansDispNo1-Medium.eot');
+  src: url('./fonts/SharpSansDispNo1-Medium.eot?#iefix') format('embedded-opentype'),
+     url('./fonts/SharpSansDispNo1-Medium.woff') format('woff'),
+     url('./fonts/SharpSansDispNo1-Medium.woff2') format('woff2');
+  font-style: normal;
+  font-weight: normal;
+}
+
 body {
   margin: 0 auto;
   max-width: 1600px;
-  font-family: "Sharp Sans Display No1", sans-serif;
+  font-family: "SharpSansDisplayNo1", sans-serif;
   font-size: 16px;
   background-color: black;
       /*max-width: 375px;*/
@@ -240,7 +250,7 @@ header .navbar-collapse a {
   content: '';
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('../images/arrow-right.png');
+  background-image: url('./images/arrow-right.png');
   display: block;
   width: 20px;
   height: 15px;
@@ -253,7 +263,7 @@ header .navbar-collapse a {
   content: '';
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('../images/arrow-down.png');
+  background-image: url('./images/arrow-down.png');
   display: block;
   width: 15px;
   height: 20px;
@@ -266,7 +276,7 @@ header .navbar-collapse a {
   content: '';
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('../images/arrow-left.png');
+  background-image: url('./images/arrow-left.png');
   display: block;
   width: 20px;
   height: 15px;
@@ -316,7 +326,7 @@ header .navbar-collapse a {
   content: '';
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('../images/arrow-down-blue.png');
+  background-image: url('./images/arrow-down-blue.png');
   display: block;
   width: 14px;
   height: 21px;
