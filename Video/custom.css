@@ -13,7 +13,7 @@ body {
   font-size: 16px;
   background-color: black;
 }
-main {
+.main {
   position: relative;
   margin: 0 auto;
   max-width: 1600px;
@@ -27,6 +27,8 @@ header {
   background-color: black;
 }
 header .navbar {
+  max-width: 1600px;
+  margin: 0 auto;
   padding-left: 0;
   padding-right: 0;
 }
@@ -67,11 +69,9 @@ header .navbar-collapse a {
 }
 .meet-albert h1 {
   color: #CEFF00;
-  font-size: 22px;
+  font-size: 28px;
   font-weight: 600;
   max-width: 360px;
-  margin-top: 35px;
-  margin-bottom: 20px;
 }
 @media (min-width: 768px) {
   .meet-albert h1 {
@@ -105,8 +105,9 @@ header .navbar-collapse a {
   margin-bottom: 20px;
   color: white;
   width: 100%;
-  font-size: 4vw;
+  font-size: 18px;
   text-decoration: none;
+  transition: all 0.1s linear;
 }
 .contact-albert a::after {
   content: '';
@@ -120,7 +121,7 @@ header .navbar-collapse a {
   width: 20px;
   height: 15px;
   float: right;
-  margin-top: 4px;
+  margin-top: 6px;
 }
 
 @media (min-width: 768px) {
@@ -398,6 +399,7 @@ header .navbar-collapse a {
 
 
 footer {
+  position: relative;
   background-color: #2D2D2D;
   padding: 70px;
 }
@@ -547,10 +549,15 @@ footer img.partners {
   footer {
     position: relative;
   }
+  footer nav {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1600px;
+  }
   .footer-nav {
     position: absolute;
     width: 25%;
-    top: 70px;
+    top: 0;
     right: 15px;
   }
 }

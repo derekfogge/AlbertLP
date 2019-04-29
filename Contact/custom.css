@@ -13,7 +13,7 @@ body {
   font-size: 16px;
   background-color: black;
 }
-main {
+.main {
   position: relative;
   margin: 0 auto;
   max-width: 1600px;
@@ -26,6 +26,8 @@ header {
   background-color: black;
 }
 header .navbar {
+  max-width: 1600px;
+  margin: 0 auto;
   padding-left: 0;
   padding-right: 0;
 }
@@ -97,7 +99,7 @@ header .navbar-collapse a {
 }
 @media (min-width: 768px) {
   .contact-albert {
-    padding-bottom: 250px;
+    padding-bottom: 240px;
   }
 }
 .contact-albert form {
@@ -379,7 +381,7 @@ header .navbar-collapse a {
 
 .impact-albert {
   position: relative;
-  padding-bottom: 180px;
+  padding-bottom: 80px;
   background-color: black;
   color: white;
   font-size: 16px;
@@ -462,6 +464,7 @@ header .navbar-collapse a {
 
 
 footer {
+  position: relative;
   background-color: #2D2D2D;
   padding: 70px;
 }
@@ -486,7 +489,11 @@ footer img.partners {
   width: 80%;
   padding-bottom: 40px;
 }
-
+footer nav {
+  max-width: 1600px;
+  margin: 0 auto;
+  position: relative;
+}
 .footer-nav {
   padding-bottom: 40px;
 }
@@ -538,8 +545,8 @@ footer img.partners {
     display: inline-block;
     float: right;
     width: 45%;
+    padding-bottom: 0;
     z-index: 9999;
-    padding-bottom: 336px;
     background-color: #394CFF;
     background-image: url(images/form-bg.png);
     background-repeat: no-repeat;
@@ -618,15 +625,22 @@ footer img.partners {
     padding-left: 15%;
   }
   .about-albert img {
-    padding: 140px 0 200px;
-  }
-  footer {
-    position: relative;
+    padding: 60px 0 200px;
   }
   .footer-nav {
     position: absolute;
     width: 25%;
-    top: 70px;
+    top: 0;
     right: 15px;
+  }
+}
+@media (min-width: 1040px) {
+  section.contact-albert:after {
+    background-color: #394CFF;
+    height: 600px;
+    width: 100%;
+    content: '';
+    position: relative;
+    display: block;
   }
 }
