@@ -114,7 +114,7 @@ header .navbar-collapse a {
 .contact-albert form h2 {
   color: #394CFF;
   font-size: 22px;
-  padding: 70px 0 0;
+  padding: 50px 0 0;
   margin-bottom: 0;
 }
 .contact-albert form input {
@@ -127,13 +127,15 @@ header .navbar-collapse a {
   border: none;
   border-radius: 0 !important;
   padding: 10px 0 40px;
+  width: 102%;
+  margin-left: -8px;
   font-size: 16px;
   font-weight: 600;
   color: black;
 }
 .contact-albert .form-group {
   border-bottom: 1px solid black;
-  height: 100px;
+/*  height: 100px;*/
   margin: 0;
 }
 .contact-albert select option {
@@ -145,6 +147,7 @@ header .navbar-collapse a {
 }
 .contact-albert form label.hidden {
   text-indent: -10000px;
+  height: 0;
 }
 .contact-albert form button {
   display: block;
