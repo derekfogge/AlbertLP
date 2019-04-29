@@ -9,15 +9,14 @@
 }
 
 body {
-  margin: 0 auto;
-  max-width: 1600px;
   font-family: "SharpSansDisplayNo1", sans-serif;
   font-size: 16px;
   background-color: black;
-      /*max-width: 375px;*/
 }
 main {
   position: relative;
+  margin: 0 auto;
+  max-width: 1600px;
 }
 section {
   padding: 30px 25px;
@@ -79,8 +78,8 @@ header .navbar-collapse a {
     font-size: 44px;
     max-width: 575px;
     padding: 0 5%;
-    margin-top: 35px;
-    margin-bottom: 70px;
+    margin-top: 0;
+    margin-bottom: 8px;
   }
 }
 .meet-albert h1::after {

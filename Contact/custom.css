@@ -9,12 +9,14 @@
 }
 
 body {
-  margin: 0 auto;
-  max-width: 1600px;
   font-family: "SharpSansDisplayNo1", sans-serif;
   font-size: 16px;
   background-color: black;
-      /*max-width: 375px;*/
+}
+main {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1600px;
 }
 section {
   padding: 30px 25px;
