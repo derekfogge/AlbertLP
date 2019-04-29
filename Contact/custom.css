@@ -242,6 +242,9 @@ header .navbar-collapse a {
 .discover-albert .feature-odd {
   background-color: #394CFF;
 }
+.discover-albert .feature.report h3 {
+  padding-top: 25px;
+}
 @media (min-width: 768px) {
   .discover-albert h2 {
     font-size: 32px;
